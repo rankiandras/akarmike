@@ -1,10 +1,5 @@
-function doesItWork(parameter) {
-    if(parameter){
-    return 'it works';
-    } else {
-        return 'it does not work'
-    }
+const whatTypeOf = parameter => {
+    return typeof parameter
 }
 
-console.log(doesItWork(true));
-console.log(doesItWork(false));
+console.log(whatTypeOf(true));
